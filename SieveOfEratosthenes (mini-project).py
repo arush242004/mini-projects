@@ -15,4 +15,4 @@ def sieve(lon):
     return lon
 
 print(sieve(lstprod(n))) ## <------- Type in the number up till which you want all the prime factors to. DO NOT TYPE IN LARGE NUMBERS THOUGH.
-                         ##                                                                              (And I'm talking about 7 to even +12 digit long numbers!!!)              
+                         ##                                                                              (And I'm talking about 5 to even +12 digit long numbers!!!)              
