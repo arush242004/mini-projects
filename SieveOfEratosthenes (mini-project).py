@@ -14,5 +14,7 @@ def sieve(lon):
                 lon.remove(n1)
     return lon
 
-print(sieve(lstprod(n))) ## <------- Type in the number up till which you want all the prime factors to. DO NOT TYPE IN LARGE NUMBERS THOUGH.
-                         ##                                                                              (And I'm talking about 5 to even +12 digit long numbers!!!)              
+print(sieve(lstprod(n))) ## <------- Type in the number up till which you want all the prime factors to. 
+
+## DO NOT TYPE IN LARGE NUMBERS THOUGH (unless NASA let you borrow their computer).
+## (And I'm talking about 5 to even +12 digit long numbers!!!).              
