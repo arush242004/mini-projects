@@ -7,7 +7,6 @@ def lstprod(n):
     return lst
 
 
-"""Use the Sieve of Erastothenes function I have defined below for problem 3."""
 def sieve(lon):
     for n in lon:
         for n1 in lon:
@@ -15,4 +14,5 @@ def sieve(lon):
                 lon.remove(n1)
     return lon
 
-print(sieve(lstprod(1000)))
+print(sieve(lstprod(n))) ## <------- Type in the number up till which you want all the prime factors to. DO NOT TYPE IN LARGE NUMBERS THOUGH.
+                         ##                                                                              (And I'm talking about 7 to even +12 digit long numbers!!!)              
